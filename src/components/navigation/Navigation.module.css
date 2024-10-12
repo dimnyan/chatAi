@@ -1,0 +1,52 @@
+.container {
+  padding: 10px;
+  min-width: 30vw;
+}
+
+.chatListContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.chatMonthPeriode {
+  font-size: 0.8em;
+}
+
+.chatContainer {
+  border-radius: 7px;
+  padding: 0px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.chatContainer:active {
+  background-color: #f2f2f221;
+}
+
+.chatTitle {
+  padding: 0;
+}
+
+.chatDate {
+  font-size: 0.7em;
+  color: #cccccc;
+  padding-bottom: 3px;
+}
+
+.moreButton {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  border-radius: 50%;
+  width: 1.4rem;
+  height: 1.4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.moreButton:hover {
+  background-color: #4d4d4d88;
+}

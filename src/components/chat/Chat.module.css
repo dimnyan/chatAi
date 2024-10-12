@@ -1,0 +1,72 @@
+.container {
+  padding: 10px;
+  width: 100%;
+  height: 100vh;
+  background-color: #00000017;
+  overflow-y: auto;
+}
+
+.chatContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.response {
+  width: fit-content;
+  background-color: #4f1fbd;
+  padding: 1px 10px;
+  border-radius: 7px;
+  border-bottom-left-radius: 0px;
+  max-width: 80%;
+}
+
+.chatResponseText {
+  width: fit-content;
+  margin-block-end: 0px;
+  margin-block-start: 5px;
+}
+
+.chatResponseDate {
+  font-size: 0.7em;
+  color: #cccccc;
+  margin-bottom: 5px;
+  width: fit-content;
+}
+
+.prompt {
+  margin-left: auto;
+  background-color: #fff;
+  color: black;
+  width: fit-content;
+  padding: 1px 10px;
+  border-radius: 7px;
+  border-bottom-right-radius: 0px;
+  max-width: 80%;
+}
+
+.chatPromptText {
+  width: fit-content;
+  margin-left: auto;
+  margin-block-end: 0px;
+  margin-block-start: 5px;
+}
+
+.chatPromptDate {
+  font-size: 0.7em;
+  color: #919191;
+  margin-bottom: 5px;
+  width: fit-content;
+  margin-left: auto;
+}
+
+.inputChat {
+  position: absolute;
+  bottom: 10px;
+  padding: 10px 15px;
+  border-radius: 15px;
+  border: 1px solid #ffffff40;
+  resize: none;
+  overflow: hidden;
+  /* width: 60%; */
+}
